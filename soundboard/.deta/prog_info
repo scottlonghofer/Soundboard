@@ -1,0 +1,1 @@
+{"id":"bd4ec721-9a39-4242-bf5d-a71b5a1fcd3e","space":18239,"runtime":"python3.9","name":"soundboard","path":"n2ohui","project":"b0ps9n51","account":"144798365827","region":"us-east-1","deps":["flask","gunicorn","flask_sqlalchemy","whitenoise"],"envs":null,"public":true,"log_level":"debug","cron":""}

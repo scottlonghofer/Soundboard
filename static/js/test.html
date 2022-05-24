@@ -1,0 +1,27 @@
+// volume buttons
+document.getElementById("volDn").addEventListener("click", function () {
+    setVol(-.1); // down by 10%
+}, false);
+document.getElementById("volUp").addEventListener("click", function () {
+    setVol(.1);  // up by 10%
+}, false);
+
+// playback speed buttons
+document.getElementById("slower").addEventListener("click", function () {
+    video.playbackRate -= .25;
+}, false);
+document.getElementById("faster").addEventListener("click", function () {
+    video.playbackRate += .25;
+}, false);
+document.getElementById("normal").addEventListener("click", function () {
+    video.playbackRate = 1;
+}, false);
+document.getElementById("mute").addEventListener("click", function (evt) {
+    if (video.muted) {
+        video.muted = false;
+        evt.target.innerHTML = "<img alt='volume on button' src='vol2.png' />"
+    } else {
+        video.muted = true;
+        evt.target.innerHTML = "<img alt='volume off button' src='mute2.png' />"
+    }
+}, false);
