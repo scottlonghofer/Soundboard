@@ -1,4 +1,4 @@
-![GitHub stars](https://img.shields.io/github/stars/metaljerk/SoundBoard)
+![GitHub stars](https://img.shields.io/github/stars/scottlonghofer/SoundBoard)
 
 A project to play sounds
 
