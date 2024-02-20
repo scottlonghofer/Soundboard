@@ -1,34 +1,13 @@
-
 <!doctype html>
-{% extends 'base.html' %}
-{% block content %}
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-    {% for message in messages %}
-        <div class="alert alert-primary alert-dismissible fade show" role="alert">
-            <span>{{ message }}</span>
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    {% endfor %}
-{% endif %}
-{% endwith %}
+
 <body>
-<!-- I'll worry about this later
-<title>Upload new File</title>
-<h1>Upload new File</h1>
-<form method=post enctype=multipart/form-data>
-<input type=file name=file>
-<input type=submit value=Upload>
-</form> -->
-<h3>Touch an image!</h>
-<div>
-<br>
-<div id="content"></div>
+    <h3>Touch an image!</h>
+        <div>
+            <br>
+            <div id="content"></div>
 
 
-<script src="../static/js/app.js"></script>
-
-{% endblock %}
+            <script src="../static/js/app.js"></script>
 </body>
+
 </html>
